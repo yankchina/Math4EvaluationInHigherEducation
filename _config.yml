@@ -1,0 +1,25 @@
+title: Math for Evaluation in Higher Education
+author: yankchina
+email: yankchina@gmail.com
+description: "A technical book written using Jekyll and GitHub Pages."
+baseurl: "/Math4EvaluationInHigherEducation" # The repository name
+url: "https://username.github.io" # Your GitHub Pages URL
+theme: jekyll-theme-slate # You can choose any Jekyll theme you like
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+collections:
+  chapters:
+    output: true
+
+permalink: /:collection/:path/
